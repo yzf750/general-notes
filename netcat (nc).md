@@ -13,7 +13,7 @@ TCP redirect post-headers to port 80
 nc xxx.xxx.xxx.xxx 80 < ./post-headers.txt
 ```
 
-Netcat Quick Listener
+Netcat - Quick Listener
 -------------------------------------------
 Start Listener
 ```
@@ -22,4 +22,15 @@ nc -l 3333
 Connect to Listener
 ```
 nc xxx.xxx.xxx.xxx 3333
+```
+
+Netcat - Check if a port is open
+-------------------------------------------
+TCP
+```
+nc -z -v xxx.xxx.xxx.xxx <portnumber>
+```
+UDP
+```
+nc -z -v -u xxx.xxx.xxx.xxx <portnumber>
 ```
