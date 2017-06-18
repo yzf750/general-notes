@@ -1,5 +1,5 @@
 # Netcat - Redirect file or header to a port
-UDP redirect file to port 37 
+UDP redirect file to port 37
 nc -v -u xxx.xxx.xxx.xxx 37 < ./file.txt
 
 TCP redirect file to port 80
