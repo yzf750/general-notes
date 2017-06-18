@@ -4,4 +4,5 @@ wget -mkEpnp http://www.yoursite.org
 curl -kis  http://xxx.xxx.xxx.xxx/etc/passwd
 # Find Writable Directories (Good for uploading shells)
 find / -type d \( -perm -g+w -or -perm -o+w \) -exec ls -adl {} \;
+
 find / -type d \( -perm -g+w -or -perm -o+w \) -exec ls -adl {} \; | grep www-data
