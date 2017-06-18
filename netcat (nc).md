@@ -5,13 +5,13 @@
 nc -v -u xxx.xxx.xxx.xxx 37 < ./file.txt
 
 
-TCP redirect file to port 80
+**TCP redirect file to port 80
 
 
 nc xxx.xxx.xxx.xxx 80 < ./file.txt
 
 
-TCP redirect post-headers to port 80
+**TCP redirect post-headers to port 80
 
 
 nc xxx.xxx.xxx.xxx 80 < ./post-headers.txt
