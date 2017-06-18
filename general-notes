@@ -1,0 +1,2 @@
+Mirror website with wget
+wget -mkEpnp http://www.yoursite.org
