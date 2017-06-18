@@ -14,7 +14,7 @@ done < "$filename"
 exit 0
 ```
 SHA1
-```
+```bash
 #!/bin/bash
 [ $# -lt 2 ] && echo "Usage: <path-to-password-file> <hash-to-find>" && exit 1
 filename=$1
