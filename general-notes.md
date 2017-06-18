@@ -8,7 +8,7 @@ Curl - Test web connections from console and view returned results
 ```
 curl -kis  http://xxx.xxx.xxx.xxx/etc/passwd
 ```
-Find Writable Directories (Good for uploading shells)
+Find Writeable Directories (Good for uploading shells)
 ------------------------
 ```bash
 find / -type d \( -perm -g+w -or -perm -o+w \) -exec ls -adl {} \;
