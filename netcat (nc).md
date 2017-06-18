@@ -1,4 +1,4 @@
-Netcat - Redirect file or HTTP header to a port
+Netcat - Redirect file or HTTP header to a remote port
 -------------------------------------------
 UDP redirect file to port 37
 ```
