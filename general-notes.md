@@ -10,9 +10,9 @@ curl -kis  http://xxx.xxx.xxx.xxx/etc/passwd
 ```
 Find Writable Directories (Good for uploading shells)
 ------------------------
-```
+```bash
 find / -type d \( -perm -g+w -or -perm -o+w \) -exec ls -adl {} \;
 ```
-```
+```bash
 find / -type d \( -perm -g+w -or -perm -o+w \) -exec ls -adl {} \; | grep www-data
 ```
