@@ -13,3 +13,8 @@ Use Word Documents to harvest usernames and passwords
 ```bash
 git clone https://github.com/ryhanson/phishery.git
 ```
+Awsome Fuzz Lists, passwords, usernames, discover (Good to Clone)
+-----------------------------------------------------
+```bash
+git clone https://github.com/danielmiessler/SecLists.git
+```
