@@ -1,3 +1,3 @@
 DIG Zone Transfer
 ---------------------------------------------------------
-dig axfr sec542.org
+dig axfr yourdomain.org
