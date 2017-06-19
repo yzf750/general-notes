@@ -24,3 +24,8 @@ Testssl.sh
 # Remember to use alternate openssl binary in bin directory 
 git clone https://github.com/drwetter/testssl.sh.git
 ```
+awesome-pentest-cheat-sheets
+-----------------------------------------------------
+```bash
+git clone https://github.com/coreb1t/awesome-pentest-cheat-sheets.git
+```
