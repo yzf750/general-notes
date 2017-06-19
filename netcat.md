@@ -8,7 +8,7 @@ TCP redirect file to port 80
 ```
 nc xxx.xxx.xxx.xxx 80 < ./file.txt
 ```
-TCP redirect post-headers to port 80
+TCP redirect http post-headers to port 80
 ```
 nc xxx.xxx.xxx.xxx 80 < ./post-headers.txt
 ```
