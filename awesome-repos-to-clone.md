@@ -3,7 +3,7 @@ List of many cheatsheets
 ```
 git clone https://github.com/jshaw87/Cheatsheets.git
 ```
-Wiki with loads of methodolgies and Information
+Wiki with loads of methodologies and Information
 ---------------------------------------------------
 ```
 git clone https://github.com/nixawk/pentest-wiki.git
@@ -17,4 +17,10 @@ Awsome Fuzz Lists, passwords, usernames, discover (Good to Clone)
 -----------------------------------------------------
 ```bash
 git clone https://github.com/danielmiessler/SecLists.git
+```
+Testssl.sh
+-----------------------------------------------------
+```bash
+# Remember to use alternate openssl binary in bin directory 
+git clone https://github.com/drwetter/testssl.sh.git
 ```
