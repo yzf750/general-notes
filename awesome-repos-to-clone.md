@@ -39,3 +39,8 @@ phishery (nice word document cerds gathering)
 '''
 git clone https://github.com/ryhanson/phishery.git
 '''
+IIS-ShortName-Scanner
+-----------------------------------------------------
+```
+git clone https://github.com/irsdl/IIS-ShortName-Scanner.git
+```
