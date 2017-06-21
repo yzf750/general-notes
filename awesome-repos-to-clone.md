@@ -29,3 +29,13 @@ awesome-pentest-cheat-sheets
 ```bash
 git clone https://github.com/coreb1t/awesome-pentest-cheat-sheets.git
 ```
+Clone GIT and other source code repositories
+-----------------------------------------------------
+```
+git clone https://github.com/kost/dvcs-ripper.git
+```
+phishery (nice word document cerds gathering)
+-----------------------------------------------------
+'''
+git clone https://github.com/ryhanson/phishery.git
+'''
