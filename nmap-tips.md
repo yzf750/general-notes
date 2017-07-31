@@ -4,6 +4,13 @@ Note: Could use almost any variable for "/https/" - run up to the awk command to
 ```bash
 nmap -PN -p 443 --open -oG - xxx.xxx.xxx.xxx/24 | awk '/https/{print $2}' | while read IP; do ./testssl.sh $IP | aha > $IP-ssl-audit.html ; done
 ```
+
+Scan for services and versions (Seems to find more Services)
+-------------------------------
+```
+nmap -A -T4 -v xxx.xxx.xxx.xxx
+```
+
 Scan for services and versions
 -------------------------------
 ```
