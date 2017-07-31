@@ -11,6 +11,12 @@ Scan for services and versions (Seems to find more Services)
 nmap -A -T4 -v xxx.xxx.xxx.xxx
 ```
 
+Scan for services and versions using specific port (Seems to find more Services)
+-------------------------------
+```
+nmap -A -T4 -v -p <port-numbers-or-range> xxx.xxx.xxx.xxx
+```
+
 Scan for services and versions
 -------------------------------
 ```
