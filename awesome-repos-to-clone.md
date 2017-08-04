@@ -44,3 +44,9 @@ IIS-ShortName-Scanner
 ```
 git clone https://github.com/irsdl/IIS-ShortName-Scanner.git
 ```
+
+naive-hashcat - Easy Hash Cracking
+---------------------------------------------------------
+```
+https://github.com/brannondorsey/naive-hashcat
+```
