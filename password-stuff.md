@@ -26,3 +26,7 @@ while read line; do
 done < "$filename"
 exit 0
 ```
+Generate SHA1 hash from text
+```bash
+echo -n password | sha1sum | awk '{print $1}'
+```
