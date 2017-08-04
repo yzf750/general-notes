@@ -27,10 +27,10 @@ done < "$filename"
 exit 0
 ```
 Generate SHA1 and MD5 hash from text
-SHA1
+
 ```bash
+# SHA1
 echo -n password | sha1sum | awk '{print $1}'
-```
-MD5
+# MD5
 echo -n password | md5sum | awk '{print $1}'
 ```
