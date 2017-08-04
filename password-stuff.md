@@ -26,7 +26,11 @@ while read line; do
 done < "$filename"
 exit 0
 ```
-Generate SHA1 hash from text
+Generate SHA1 and MD5 hash from text
+SHA1
 ```bash
 echo -n password | sha1sum | awk '{print $1}'
+```
+MD5
+echo -n password | md5sum | awk '{print $1}'
 ```
