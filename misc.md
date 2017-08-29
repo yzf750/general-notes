@@ -1,3 +1,9 @@
+Windows verify Checksums
+---------------------------------------------------------
+```bash
+certUtil -hashfile pathToFileToCheck [MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512]
+
+```
 DIG Zone Transfer
 ---------------------------------------------------------
 ```bash
@@ -34,4 +40,8 @@ unset HTTP_PROXY
 unset https_proxy
 unset http_proxy
 unset HTTPS_PROXY
+```
+
+# Windows Verify Checksums
+
 ```
