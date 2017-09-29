@@ -41,7 +41,3 @@ unset https_proxy
 unset http_proxy
 unset HTTPS_PROXY
 ```
-
-# Windows Verify Checksums
-
-```
