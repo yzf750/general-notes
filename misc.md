@@ -41,7 +41,7 @@ unset https_proxy
 unset http_proxy
 unset HTTPS_PROXY
 ```
-Parse searchsploit using nmap results 
+Parse searchsploit results using nmap scan xml 
 ---------------------------------------------------------
 ```bash
 nmap -v -sV -oX file.xml xxx.xxx.xxx.xxx
