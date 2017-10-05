@@ -29,7 +29,7 @@ awesome-pentest-cheat-sheets
 ```bash
 git clone https://github.com/coreb1t/awesome-pentest-cheat-sheets.git
 ```
-Clone GIT and other source code repositories
+Clone GIT and other source code repositories (Useful for exposed git repositories)
 -----------------------------------------------------
 ```
 git clone https://github.com/kost/dvcs-ripper.git
