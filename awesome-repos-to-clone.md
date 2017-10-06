@@ -50,3 +50,8 @@ naive-hashcat - Easy Hash Cracking
 ```
 https://github.com/brannondorsey/naive-hashcat
 ```
+Nice list of notes
+---------------------------------------------------------
+```
+https://jivoi.github.io/2015/07/01/pentest-tips-and-tricks/
+```
