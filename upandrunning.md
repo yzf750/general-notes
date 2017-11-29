@@ -13,4 +13,6 @@ git clone https://github.com/danielmiessler/SecLists.git
 git clone https://github.com/drwetter/testssl.sh.git
 #Phishery
 git clone https://github.com/ryhanson/phishery.git
+# FuzzLists
+git clone https://github.com/1N3/IntruderPayloads.git
 ```
