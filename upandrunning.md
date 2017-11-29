@@ -5,6 +5,7 @@ mkdir ~/pentest-stuff
 cd ~/pentest-stuff
 git clone https://github.com/yzf750/general-notes.git
 git clone https://github.com/yzf750/web-application.git
+git clone https://github.com/yzf750/custom-fuzzing.git
 # Awsome fuzzlists
 git clone https://github.com/danielmiessler/SecLists.git
 # testssl.sh
