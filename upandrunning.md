@@ -1,7 +1,8 @@
 Clone these repos
 ---------------------------------------------------------
 ```bash
-git clone dddddddddddddd
+https://github.com/yzf750/general-notes.git
+
 
 ```
 DIG Zone Transfer
