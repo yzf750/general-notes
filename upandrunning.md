@@ -17,12 +17,12 @@ git clone https://github.com/ryhanson/phishery.git
 git clone https://github.com/1N3/IntruderPayloads.git
 # All things
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings
+# Nice list of robots.txt disallowed (Good to use with dirbuster)
+git clone https://github.com/danielmiessler/RobotsDisallowed.git
+
 # List of stuff to concider cloning
 #git clone https://github.com/xmendez/wfuzz.git
 #git clone https://github.com/fuzzdb-project/fuzzdb.git
 #git clone https://github.com/minimaxir/big-list-of-naughty-strings.git
 #git clone https://github.com/foospidy/payloads.git
-#git clone https://github.com/danielmiessler/RobotsDisallowed.git
-
-
 ```
