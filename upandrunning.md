@@ -5,5 +5,9 @@ mkdir ~/pentest-stuff
 cd ~/pentest-stuff
 git clone https://github.com/yzf750/general-notes.git
 git clone https://github.com/yzf750/web-application.git
-
+# Awsome fuzzlists
+git clone https://github.com/danielmiessler/SecLists.git
+# testssl.sh
+# Remember to use alternate openssl binary in bin directory 
+git clone https://github.com/drwetter/testssl.sh.git
 ```
