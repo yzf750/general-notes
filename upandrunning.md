@@ -1,7 +1,7 @@
 Clone these repos
 ---------------------------------------------------------
 ```bash
-https://github.com/yzf750/general-notes.git
-https://github.com/yzf750/web-application.git
+git clone https://github.com/yzf750/general-notes.git
+git clone https://github.com/yzf750/web-application.git
 
 ```
