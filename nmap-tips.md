@@ -34,4 +34,10 @@ Enumerate SMB Users
 ```
 nmap -sU -sS --script=smb-enum-users -p U:137,T:139 192.168.11.200-254 
 ```
+Parse searchsploit results using nmap scan xml 
+---------------------------------------------------------
+```bash
+nmap -v -sV -oX file.xml xxx.xxx.xxx.xxx
+searchsploit --nmap ./file.xml
+```
 
