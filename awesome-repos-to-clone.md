@@ -8,11 +8,6 @@ Wiki with loads of methodologies and Information
 ```
 git clone https://github.com/nixawk/pentest-wiki.git
 ```
-Use Word Documents to harvest usernames and passwords
------------------------------------------------------
-```bash
-git clone https://github.com/ryhanson/phishery.git
-```
 Awsome Fuzz Lists, passwords, usernames, discover (Good to Clone)
 -----------------------------------------------------
 ```bash
