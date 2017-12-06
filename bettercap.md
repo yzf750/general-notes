@@ -1,5 +1,5 @@
 
-Sniffs POSTS using bettercap and sslstrip
+Sniffs POSTs using bettercap and sslstrip
 -----------------------------------------
 ```
 # Does not really work well on modern TLS implementations (might be worth a try though....)
