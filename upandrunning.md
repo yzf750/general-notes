@@ -15,7 +15,7 @@ git clone https://github.com/danielmiessler/SecLists.git
 # testssl.sh
 # Remember to use alternate openssl binary in bin directory 
 git clone https://github.com/drwetter/testssl.sh.git
-cp ./bin/openssl.Linux.x86_64 ./
+cp .testssl.sh/bin/openssl.Linux.x86_64 ./
 
 # Phishery
 git clone https://github.com/ryhanson/phishery.git
