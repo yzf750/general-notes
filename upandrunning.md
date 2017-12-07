@@ -32,6 +32,8 @@ git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
 # Nice list of robots.txt disallowed (Good to use with dirbuster)
 git clone https://github.com/danielmiessler/RobotsDisallowed.git
 
+# Deserilization (Tomcat, etc...)
+git clone https://github.com/joaomatosf/jexboss.git
 
 # List of stuff to concider cloning
 #git clone https://github.com/xmendez/wfuzz.git
