@@ -26,6 +26,9 @@ git clone https://github.com/ryhanson/phishery.git
 # FuzzLists (large Download)
 git clone https://github.com/1N3/IntruderPayloads.git
 
+# F5 Cookie decoder
+git clone https://github.com/DarkLighting/bigip-cookie-decoder.git
+
 # All things
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
 
