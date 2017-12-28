@@ -1,6 +1,4 @@
-Search for found md5 and sha1 hashes using password lists
----------------------------------------------------------
-MD5
+Search for found MD5 hashe using password lists
 ```bash
 #!/bin/bash
 [ $# -lt 2 ] && echo "Usage: <path-to-password-file> <hash-to-find>" && exit 1
@@ -13,7 +11,7 @@ while read line; do
 done < "$filename"
 exit 0
 ```
-SHA1
+Search for found SHA1 hashe using password lists
 ```bash
 #!/bin/bash
 [ $# -lt 2 ] && echo "Usage: <path-to-password-file> <hash-to-find>" && exit 1
