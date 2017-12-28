@@ -39,7 +39,7 @@ Convert password lists to MD5 or SHA1 hashes
 # Use to convert password lists to MD5 or SHA1 hashes
 # filename: pass-to-hash.sh
 
-[ $# -lt 3 ] && echo "Usage: <path-to-password-file> <patch-to-output-file> <hash-type MD5|SHA1" && exit 1
+[ $# -lt 3 ] && echo "Usage: <path-to-password-file> <path-to-output-file> <hash-type MD5|SHA1>" && exit 1
 
 inputfilename=$1
 outputfilename=$2
@@ -48,12 +48,14 @@ hashtype=$3
 while read line; do
 
 	if [ $hashtype == "MD5" ];
-	then 
+	then
+		echo -n 'password:' $line 'MD5-hash: ' >> $outputfilename
 		echo -n $line | md5sum | awk '{print $1}' >> $outputfilename
 	fi
 
 	if [ $hashtype == "SHA1" ];
-	then 
+	then
+		echo -n 'password:' $line 'SHA1-hash: ' >> $outputfilename
 		echo -n $line | sha1sum | awk '{print $1}' >> $outputfilename
 	fi
 
