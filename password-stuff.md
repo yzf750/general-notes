@@ -34,3 +34,33 @@ echo -n password | sha1sum | awk '{print $1}'
 # MD5
 echo -n password | md5sum | awk '{print $1}'
 ```
+Convert password lists to MD5 or SHA1 hashes
+
+```bash
+#!/bin/bash
+# Use to convert password lists to MD5 or SHA1 hashes
+# filename: pass-to-hash.sh
+
+[ $# -lt 3 ] && echo "Usage: <path-to-password-file> <patch-to-output-file> <hash-type MD5|SHA1" && exit 1
+
+inputfilename=$1
+outputfilename=$2
+hashtype=$3
+
+while read line; do
+
+	if [ $hashtype == "MD5" ];
+	then 
+		echo -n $line | md5sum | awk '{print $1}' >> $outputfilename
+	fi
+
+	if [ $hashtype == "SHA1" ];
+	then 
+		echo -n $line | sha1sum | awk '{print $1}' >> $outputfilename
+	fi
+
+done < "$inputfilename"
+exit 0
+```
+
+
