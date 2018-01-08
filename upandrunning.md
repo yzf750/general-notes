@@ -32,6 +32,9 @@ cp ./testssl.sh/bin/openssl.Linux.x86_64 ./testssl.sh
 # Phishery
 git clone https://github.com/ryhanson/phishery.git
 
+# Bug Bounty Cheat Sheet
+git clone https://github.com/EdOverflow/bugbounty-cheatsheet.git
+
 # FuzzLists (large Download)
 git clone https://github.com/1N3/IntruderPayloads.git
 
