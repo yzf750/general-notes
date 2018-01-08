@@ -2,7 +2,7 @@ Misc Git commands
 ---------------------------------------------------------
 ```bash
 # Update Git repo 
-# cd to repo directory and run
+# cd into repo directory and run
 git pull
 ```
 
