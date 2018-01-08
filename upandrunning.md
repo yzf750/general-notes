@@ -1,8 +1,8 @@
 Misc Git commands
 ---------------------------------------------------------
+```bash
 # Update Git repo 
 # cd to repo directory and run
-```bash
 git pull
 ```
 
