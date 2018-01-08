@@ -1,3 +1,12 @@
+Misc Git commands
+---------------------------------------------------------
+# Update Git repo 
+# cd to repo directory and run
+```bash
+git pull
+```
+
+
 Clone these repos
 ---------------------------------------------------------
 ```bash
