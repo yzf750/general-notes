@@ -24,6 +24,12 @@ git clone https://github.com/danielmiessler/SecLists.git
 # Nice fuzzing list
 git clone https://github.com/fuzzdb-project/fuzzdb.git
 
+# Dirbuster lists for use with BURP
+git clone https://github.com/digination/dirbuster-ng.git
+
+# Nice list of lists for web application
+git clone https://github.com/nathanmyee/SVNDigger.git
+
 # testssl.sh
 # Remember to use alternate openssl binary in bin directory 
 git clone https://github.com/drwetter/testssl.sh.git
