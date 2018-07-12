@@ -50,3 +50,8 @@ Nice list of notes
 ```
 https://jivoi.github.io/2015/07/01/pentest-tips-and-tricks/
 ```
+GIT Ripper (Use if a .git repository is found
+-----------------------------------------------------
+```
+git clone https://github.com/kost/dvcs-ripper
+```
