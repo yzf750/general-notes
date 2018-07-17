@@ -18,7 +18,7 @@ Brute force all characters sets password min = 0, password max - 256 (Will take 
 # "hasheszz.txt" file containing hashes
 hashcat64.exe -a 3 -m 100 hasheszz.txt
 ```
-Tests for Custom Charsets
+Cracks using Custom Charsets
 -------------------------
 ```
 # "-a 3" to specify brute forcing
@@ -28,7 +28,7 @@ Tests for Custom Charsets
 # Will only crack a hash if the password is 7 characters (count the mask)
 hashcat64.exe -a 3 -m 100 hasheszz.txt -1 pasword123 ?1?1?1?1?1?1?1
 ```
-Tests for 8 character hashed passwords using only lower case letters (Use Charsets from above) (these are eell's not ones)
+Tests for 8 character hashed passwords using only lower case letters (Use Charsets from above) (these are eell's not one's)
 -------------------------
 ```
 # "-a 3" to specify brute forcing
