@@ -27,26 +27,29 @@ Tests for Custom Charsets
 # "-1" specifies that only the "pasword123" characters will be used.
 # Will only crack a hash if the password is 7 characters (count the mask)
 hashcat64.exe -a 3 -m 100 hasheszz.txt -1 pasword123 ?1?1?1?1?1?1?1
-
-
+```
 Tests for 8 character hashed passwords using only lower case letters (Use Charsets from above) (these are eell's not ones)
+-------------------------
+```
 # "-a 3" to specify brute forcing
 # "-m 100" specifies SHA1
 # "hasheszz.txt" file containing hashes
 # "?l?l?l?l?l?l?l?l" specifies the length of the password, in this case 8 characters
 hashcat64.exe -a 3 -m 100 hasheszz.txt ?l?l?l?l?l?l?l?l
-
-
+```
 Tests for 8 character hashed passwords using custom character set
+-------------------------
+```
 # "-a 3" to specify brute forcing
 # "-m 100" specifies SHA1
 # "hasheszz.txt" file containing hashes
 # -1 specifies the custom custom set to use
 # "?1?1?1?1?1?1?1" specifies the length if the password as well as the position of each character
 hashcat64.exe -a 3 -m 100 hasheszz.txt -1 paswword123 ?1?1?1?1?1?1?1
-
-
+```
 Cracks using minimum and maximum length password
+-------------------------
+```
 # "-m 100" specifies SHA1
 # "-a 3" to specify brute forcing
 # "-O" hashcat seems to like this??
@@ -61,9 +64,10 @@ hashcat64.exe -m 100 -O -a 3 --status --status-timer=5 --increment --increment-m
 # Same as above but his time used built in charset
 # "-1 ?l?d" specifies what built in character sets you want to use, in this case you will be using both lowercase and digits for all positions
 hashcat64.exe -m 100 -O -a 3 --status --status-timer=5 --increment --increment-min=12 hasheszz.txt -1 ?l?d ?1?1?1?1?1?1?1?1?1?1?1?1
-
-
+```
 Cracks hashes from a list of passwords
+-------------------------
+```
 # "-m 100" specifies SHA1
 # "-O" hashcat seems to like this??
 # "--status" displays the status
@@ -71,3 +75,4 @@ Cracks hashes from a list of passwords
 # "hasheszz.txt" file containing hashes
 # C:\path\to\your\password-lists\rockyou-75.txt
 hashcat64.exe -m 100 -O --status --status-timer=10 hasheszz.txt C:\path\to\your\password-lists\rockyou-75.txt
+```
