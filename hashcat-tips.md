@@ -59,7 +59,7 @@ Cracks using minimum and maximum length password
 # "--increment-min=12" Tells hashcat you want to start at a minimum length, in the case the minimum is 12 characters
 # "hasheszz.txt" file containing hashes
 # "-1" specifies the desired character set to use. In this case a custom charset is used "123456789password"
-# The maximum length is determined by the mask, in this case "?1?1?1?1?1?1?1?1?1?1?1?1" specifies the max length of 12 in this case.
+# The maximum length is determined by the mask, in this case "?1?1?1?1?1?1?1?1?1?1?1?1" specifies the max length of 12.
 hashcat64.exe -m 100 -O -a 3 --status --status-timer=5 --increment --increment-min=12 hasheszz.txt -1 123456789password ?1?1?1?1?1?1?1?1?1?1?1?1
 
 # Same as above but his time used built in charset
