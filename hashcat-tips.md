@@ -2,7 +2,7 @@ Hashcat Notes
 =============
 Built in Charsets
 -----------------
-```
+```bash
 ?l = abcdefghijklmnopqrstuvwxyz
 ?u = ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ?d = 0123456789
@@ -12,7 +12,7 @@ Built in Charsets
 ```
 Brute force all characters sets password min = 0, password max - 256 (Will take a long time, better to sniper using techniques below)
 -------------------------------------------------------------------------------------------------------------------------------------
-```
+```bash
 # "-a 3" to specify brute forcing
 # "-m 100" specifies SHA1
 # "hasheszz.txt" file containing hashes
@@ -20,7 +20,7 @@ hashcat64.exe -a 3 -m 100 hasheszz.txt
 ```
 Cracks using Custom Charsets
 -------------------------
-```
+```bash
 # "-a 3" to specify brute forcing
 # "-m 100" specifies SHA1
 # "hasheszz.txt" file containing hashes
@@ -30,7 +30,7 @@ hashcat64.exe -a 3 -m 100 hasheszz.txt -1 pasword123 ?1?1?1?1?1?1?1
 ```
 Tests for 8 character hashed passwords using only lower case letters (Use Charsets from above) (these are eell's not one's)
 -------------------------
-```
+```bash
 # "-a 3" to specify brute forcing
 # "-m 100" specifies SHA1
 # "hasheszz.txt" file containing hashes
@@ -39,7 +39,7 @@ hashcat64.exe -a 3 -m 100 hasheszz.txt ?l?l?l?l?l?l?l?l
 ```
 Tests for 8 character hashed passwords using custom character set
 -------------------------
-```
+```bash
 # "-a 3" to specify brute forcing
 # "-m 100" specifies SHA1
 # "hasheszz.txt" file containing hashes
@@ -49,7 +49,7 @@ hashcat64.exe -a 3 -m 100 hasheszz.txt -1 paswword123 ?1?1?1?1?1?1?1
 ```
 Cracks using minimum and maximum length password
 -------------------------
-```
+```bash
 # "-m 100" specifies SHA1
 # "-a 3" to specify brute forcing
 # "-O" hashcat seems to like this??
@@ -67,7 +67,7 @@ hashcat64.exe -m 100 -O -a 3 --status --status-timer=5 --increment --increment-m
 ```
 Cracks hashes from a list of passwords
 -------------------------
-```
+```bash
 # "-m 100" specifies SHA1
 # "-O" hashcat seems to like this??
 # "--status" displays the status
