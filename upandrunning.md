@@ -41,6 +41,9 @@ cp ./testssl.sh/bin/openssl.Linux.x86_64 ./testssl.sh
 # Phishery
 git clone https://github.com/ryhanson/phishery.git
 
+# Wordlists, rockyou, app_specific, ip_cams, etc...
+git clone https://github.com/huntergregal/wordlists
+
 # Bug Bounty Cheat Sheet
 git clone https://github.com/EdOverflow/bugbounty-cheatsheet.git
 
