@@ -1,3 +1,13 @@
+Install Kali then configure VirtualBox addons
+---------------------------------------------------------
+```bash
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+apt-get install virtualbox-guest-x11
+reboot now
+```
+
 Misc Git commands
 ---------------------------------------------------------
 ```bash
