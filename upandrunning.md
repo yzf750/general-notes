@@ -6,6 +6,7 @@ Misc Git commands
 git pull
 
 # Update all repos in parent subdirectories
+# cd to parent directory and run....
 find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;
 ```
 
