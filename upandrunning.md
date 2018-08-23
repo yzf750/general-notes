@@ -4,8 +4,10 @@ Misc Git commands
 # Update Git repo 
 # cd into repo directory and run
 git pull
-```
 
+# Update all repos in parent subdirectories
+find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;
+```
 
 Clone these repos
 ---------------------------------------------------------
