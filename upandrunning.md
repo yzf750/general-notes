@@ -13,8 +13,8 @@ find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull 
 Clone these repos
 ---------------------------------------------------------
 ```bash
-mkdir ~/pentest-stuff
-cd ~/pentest-stuff
+mkdir ./pentest-stuff
+cd pentest-stuff
 
 # My stuff
 git clone https://github.com/yzf750/general-notes.git
