@@ -1,6 +1,6 @@
 Create simple packet then send it.
 -----------------------------------
-```
+```python
 from scapy.all import *
 A = 'source.ip-xxx.xxx.xxx.xxx'
 B = 'detination.ip-xxx.xxx.xxx.xxx'
@@ -14,6 +14,7 @@ send(spoofed_packet)
 
 This one lets scapy deal with the MAC layer (by using the "send" function) More testing required
 -----------------------------------
+```python
 from scapy.all import *
 ip_map = {"1.2.3.4": "10.0.0.1", "1.2.3.5": "10.0.0.2"}
 for p in PcapReader("single-packet.pcap"):
@@ -35,7 +36,8 @@ for p in PcapReader("single-packet.pcap"):
     del(p.chksum)
     # then send the packet
     send(p)
-    
+```
+
 Import a pcap file and change the source and destinaion ip's
 -----------------------------------
 ```python    
