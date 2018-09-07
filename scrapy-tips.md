@@ -2,8 +2,8 @@ Create simple packet then send it.
 -----------------------------------
 ```
 from scapy.all import *
-A = 'source.ip'
-B = 'detination.ip'
+A = 'source.ip-xxx.xxx.xxx.xxx'
+B = 'detination.ip-xxx.xxx.xxx.xxx'
 C = source.port
 D = dst.port
 payload = "stuff to put in the payload"
@@ -44,8 +44,8 @@ from scapy.utils import rdpcap
 
 pkts=rdpcap("single-packet.pcap")
 for pkt in pkts:
-     pkt[IP].src= new_src_ip="src.ip"
-     pkt[IP].dst= new_dst_ip="dst.ip"
+     pkt[IP].src= new_src_ip="xxx.xxx.xxx.xxx"
+     pkt[IP].dst= new_dst_ip="xxx.xxx.xxx.xxx"
      send(pkt)
  ```
   
