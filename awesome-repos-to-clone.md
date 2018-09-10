@@ -55,3 +55,8 @@ GIT Ripper (Use if a .git repository is found
 ```
 git clone https://github.com/kost/dvcs-ripper
 ```
+```
+.net deserialization
+-----------------------------------------------------
+git clone https://github.com/pwntester/ysoserial.net.git
+```
