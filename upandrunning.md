@@ -74,7 +74,7 @@ git clone https://github.com/joaomatosf/jexboss.git
 
 # XSS Scanner - still testing
 # pip3 install fuzzywuzzy
-# python3 xsstrike.py -u "http://your.url.goes/here" --fuzzer
+# python3 xsstrike.py -u "http://your.url.goes/here?ddd=xxxxx" --fuzzer
 git clone https://github.com/s0md3v/XSStrike.git
 
 
