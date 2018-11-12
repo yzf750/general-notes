@@ -72,6 +72,13 @@ git clone https://github.com/danielmiessler/RobotsDisallowed.git
 # Deserilization (Tomcat, etc...)
 git clone https://github.com/joaomatosf/jexboss.git
 
+# XSS Scanner - still testing
+# pip3 install fuzzywuzzy
+# python3 xsstrike.py -u "http://your.url.goes/here" --fuzzer
+git clone https://github.com/s0md3v/XSStrike.git
+
+
+
 # List of stuff to concider cloning
 #git clone https://github.com/xmendez/wfuzz.git
 #git clone https://github.com/fuzzdb-project/fuzzdb.git
