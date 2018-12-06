@@ -1,4 +1,4 @@
-Start a meterpreter listener for Windows payload
+Start meterpreter listener for a Windows payload
 ------------------------------------------------
 ```bash
 use exploit/multi/handler 
