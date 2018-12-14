@@ -83,6 +83,9 @@ git clone https://github.com/codingo/NoSQLMap.git
 # python3 xsstrike.py -u "http://your.url.goes/here?ddd=xxxxx" --fuzzer
 git clone https://github.com/s0md3v/XSStrike.git
 
+# Nice tools and stuff
+git clone https://github.com/jivoi/pentest.git
+
 # List of stuff to concider cloning
 #git clone https://github.com/xmendez/wfuzz.git
 #git clone https://github.com/minimaxir/big-list-of-naughty-strings.git
