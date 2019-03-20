@@ -91,4 +91,7 @@ git clone https://github.com/jivoi/pentest.git
 #git clone https://github.com/minimaxir/big-list-of-naughty-strings.git
 #git clone https://github.com/foospidy/payloads.git
 
+# Nice repository to hack git repos
+https://github.com/internetwache/GitTools
+
 ```
