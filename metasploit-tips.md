@@ -1,4 +1,4 @@
-Create payload and listeners "One Liners"
+Create payload and listener "One Liners"
 ------------------------------------------------
 ```bash
 # Windows
