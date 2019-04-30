@@ -61,3 +61,12 @@ dotnet deserialization
 ```
 git clone https://github.com/pwntester/ysoserial.net.git
 ```
+
+
+Parse Target for SQL Injection points
+-----------------------------------------------------
+```
+https://rhinosecuritylabs.com/application-security/sleuthql-sql-injection-discovery-tool/
+git clone https://github.com/RhinoSecurityLabs/SleuthQL
+```
+
