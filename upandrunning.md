@@ -86,6 +86,9 @@ git clone https://github.com/s0md3v/XSStrike.git
 # Nice tools and stuff
 git clone https://github.com/jivoi/pentest.git
 
+# Nice discovery and scipts
+git clone https://github.com/leebaird/discover.git
+
 # List of stuff to concider cloning
 #git clone https://github.com/xmendez/wfuzz.git
 #git clone https://github.com/minimaxir/big-list-of-naughty-strings.git
@@ -93,5 +96,4 @@ git clone https://github.com/jivoi/pentest.git
 
 # Nice repository to hack git repos
 https://github.com/internetwache/GitTools
-
 ```
