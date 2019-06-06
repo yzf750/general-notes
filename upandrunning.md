@@ -34,6 +34,14 @@ git clone https://github.com/yzf750/custom-fuzzing.git
 # Awsome fuzzlists
 git clone https://github.com/danielmiessler/SecLists.git
 
+# JSFUCK - Good for XSS testing.....
+# Move to JSFUCK directory
+# php -S xxx.xxx.xxx.xxx:80
+# http://xxx.xxx.xxx.xxx:80/index.html
+git clone https://github.com/aemkei/jsfuck.git
+
+
+
 # Nice fuzzing list
 git clone https://github.com/fuzzdb-project/fuzzdb.git
 
