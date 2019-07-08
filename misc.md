@@ -41,3 +41,9 @@ unset https_proxy
 unset http_proxy
 unset HTTPS_PROXY
 ```
+Mount NFS share
+---------------------------------------------------------
+```bash
+mount -t nfs server_IP_addr:/share_name /local_mount_point -o async
+```
+
