@@ -19,6 +19,8 @@ returned results <table1 table2 table3 table4>
 
 mysql -u <db-username> --password=<password> -D db1 -e "SELECT * FROM table1;"
 returned results <blah blah blah>
+
+mysql -u <db-username> --password=<password> -D db1 -e "select * from table1 WHERE username like 'admin%';"
 ```
 
 MySQL execute shell commands
