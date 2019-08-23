@@ -1,3 +1,11 @@
+Record Desktop 
+---------------------------------------------------------
+```bash
+# apt-get install ffmpeg
+recordmydesktop --no-sound
+ffmpeg -i ./out.ogv ./out.mp4
+```
+
 Windows verify Checksums
 ---------------------------------------------------------
 ```bash
