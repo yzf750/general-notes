@@ -27,6 +27,8 @@ git clone https://github.com/coreb1t/awesome-pentest-cheat-sheets.git
 Clone GIT and other source code repositories (Useful for exposed git repositories)
 -----------------------------------------------------
 ```
+# Finds, clones and extracts git repos
+git clone https://github.com/internetwache/GitTools
 git clone https://github.com/kost/dvcs-ripper.git
 ```
 phishery (nice word document cerds gathering)
